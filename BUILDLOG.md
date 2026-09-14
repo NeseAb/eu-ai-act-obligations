@@ -34,7 +34,7 @@ Next: a script that splits Article 50 into paragraphs
 and tags each one provider or deployer.
 
 
-## Session 3 — Monday, 14 September 2026
+## 14 September 2026 - session 3
 
 First working code in the repo.
 

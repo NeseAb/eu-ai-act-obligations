@@ -32,3 +32,28 @@ whichever app is in front.
 
 Next: a script that splits Article 50 into paragraphs
 and tags each one provider or deployer.
+
+
+## Session 3 — Monday, 14 September 2026
+
+First working code in the repo.
+
+- Wrote `parse_article_50.py`: reads `data/article_50.txt`,
+  splits it into numbered paragraphs with a regex lookahead,
+  prints them.
+- Found 8 chunks — the heading plus the seven paragraphs.
+  Split was clean on the first run.
+- Added a `who_owes()` tagger: looks at the opening 80
+  characters of each paragraph and returns provider,
+  deployer, or unknown.
+- Result: 1 and 2 provider, 3 and 4 deployer, 5 / 6 / 7
+  unknown.
+
+What fought back: nothing in the code. The law did.
+Paragraphs 5, 6 and 7 don't name a provider or a deployer
+because they aren't that kind of provision — 5 is a rule
+about how the first four must be discharged, 6 is a savings
+clause, 7 puts a duty on the AI Office. Two boxes is the
+wrong shape. Naming the third category is the next job.
+
+Commits: 7c18ca7, 110cd6a
